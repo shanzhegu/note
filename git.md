@@ -42,6 +42,10 @@ git config --global --list/-l
 ### 远程仓库相关
 git remote add origin git@github.com:liao/learn.git
   和远程仓库 git@github.com:liao/learn.git 建立连接，并命名为 origin ，这个名字是 github、dev 等
+git remote -v
+  和远程仓库的关联，及对应的权限(fetch/push)
+git remote rm origin
+  删除和 远程仓库origin 的连接
 
 ### 分支相关
 - 查看当前分支 和 远程分支的映射关系。有没有分支、和哪个分支关联
