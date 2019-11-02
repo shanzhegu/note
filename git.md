@@ -55,3 +55,8 @@ git branch -vv
 - 把'当前分支'和'远程仓库origin的dev分支'关联起来
 git branch -u origin/dev
   关联成功后会有提示，Branch dev set up to track remote branck dev from origin
+
+#### 小实验
+- 我们创建并切换了 dev 分支，在这个分支上完成了一个功能。
+- 我们切换回 master 分支后，是看不到这个功能相关的代码的。
+- 必须 merge 一下，把指定分支(dev)上的内容合并到当前分支上(master)
