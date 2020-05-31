@@ -3,7 +3,7 @@
 
 ### .gitignore
 建立仓库时，.gitignore 文件是必须的，可以避免上传一些无用文件，常见的忽略项
-```shell
+```sh
   .DS_Store
   /dist
 
@@ -60,3 +60,6 @@ git branch -u origin/dev
 - 我们创建并切换了 dev 分支，在这个分支上完成了一个功能。
 - 我们切换回 master 分支后，是看不到这个功能相关的代码的。
 - 必须 merge 一下，把指定分支(dev)上的内容合并到当前分支上(master)
+
+
+我添加了测试内容，待提交
