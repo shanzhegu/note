@@ -12,7 +12,6 @@ console.log('the latest new context')
 
 // github edit
 
-
 function add(num) {
   return num + 2
 }
